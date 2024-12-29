@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#CECE04",
+          "style": "plain",
+          "template": "# ",
+          "type": "root"
+        },
+        {
+          "style": "plain",
+          "template": "{{ .UserName }}@{{ .HostName }} ",
+          "type": "session"
+        },
+        {
+          "foreground": "#7B68EE",
+          "properties": {
+            "style": "agnoster_short"
+          },
+          "style": "plain",
+          "template": "{{ .Path }} ",
+          "type": "path"
+        },
+        {
+          // Changed from "#48D1CC" to "#5e78f5"
+          "foreground": "#5e78f5",
+          "properties": {
+            "branch_icon": "",
+            "fetch_upstream_icon": false
+          },
+          "style": "plain",
+          "template": "HEAD:{{ .UpstreamIcon }}{{ .HEAD }} ",
+          "type": "git"
+        },
+        {
+          // Changed the foreground and the arrows’ colors to "#5e78f5"
+          "foreground": "#5e78f5",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#E84855{{ end }}"
+          ],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "<#5e78f5>\u276f</><#5e78f5>\u276f</><#5e78f5>\u276f</> ",
+          "type": "status"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "version": 3
+}
+
