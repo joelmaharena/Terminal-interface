@@ -25,7 +25,7 @@
           "type": "path"
         },
         {
-          "foreground": "#404040",
+          "foreground": "#7B68EE",
           "properties": {
             "branch_icon": "",
             "fetch_upstream_icon": false
@@ -35,7 +35,7 @@
           "type": "git"
         },
         {
-          "foreground": "#404040",
+          "foreground": "#7B68EE",
           "foreground_templates": [
             "{{ if gt .Code 0 }}#E84855{{ end }}"
           ],
@@ -43,7 +43,7 @@
             "always_enabled": true
           },
           "style": "plain",
-          "template": "<#404040>\u276f</><#404040>\u276f</><#404040>\u276f</> ",
+          "template": "<#7B68EE>\u276f</><#7B68EE>\u276f</><#7B68EE>\u276f</> ",
           "type": "status"
         }
       ],
