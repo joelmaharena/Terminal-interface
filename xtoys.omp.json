@@ -25,8 +25,8 @@
           "type": "path"
         },
         {
-          // Changed from "#48D1CC" to "#418ADC"
-          "foreground": "#418ADC",
+          // Changed from "#48D1CC" to "#ffffff"
+          "foreground": "#ffffff",
           "properties": {
             "branch_icon": "",
             "fetch_upstream_icon": false
@@ -36,8 +36,8 @@
           "type": "git"
         },
         {
-          // Changed the foreground and the arrows’ colors to "#418ADC"
-          "foreground": "#418ADC",
+          // Changed the foreground and the arrows’ colors to "#ffffff"
+          "foreground": "#ffffff",
           "foreground_templates": [
             "{{ if gt .Code 0 }}#E84855{{ end }}"
           ],
@@ -45,7 +45,7 @@
             "always_enabled": true
           },
           "style": "plain",
-          "template": "<#418ADC>\u276f</><#418ADC>\u276f</><#418ADC>\u276f</> ",
+          "template": "<#ffffff>\u276f</><#ffffff>\u276f</><#ffffff>\u276f</> ",
           "type": "status"
         }
       ],
